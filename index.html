@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>QuantumGrades — Developer Preview</title>
+
+  <meta name="description"
+        content="QuantumGradesApp is a high-performance C++ analytics engine for quantitative systems. Developer Preview." />
+
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <header class="container header">
+    <div class="brand">
+      <!-- Replace with your logo -->
+      <!-- <img src="assets/logo.svg" alt="QuantumGrades logo" width="40" height="40" /> -->
+      <div class="logo">QG</div>
+
+      <div>
+        <div class="title">QuantumGrades</div>
+        <div class="subtitle">Developer Preview</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#status">Status</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <h1>High-performance analytics engine for quantitative systems.</h1>
+
+      <p class="lead">
+        QuantumGradesApp is an engineering-driven C++ project focused on modularity,
+        predictability, and integration into real-world analytical pipelines.
+      </p>
+
+      <div class="cta">
+        <a class="btn primary"
+           href="https://github.com/diwiw/QuantumGradesApp"
+           target="_blank"
+           rel="noreferrer">
+          View GitHub Repository
+        </a>
+
+        <a class="btn" href="#contact">
+          Get in Touch
+        </a>
+      </div>
+
+      <div class="note">
+        This is an early developer preview. APIs and internal structure may change.
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About the Project</h2>
+      <p>
+        The goal of QuantumGradesApp is to provide a lightweight, deterministic, and
+        testable analytics core that can be embedded into services, tools, and
+        quantitative research environments.
+      </p>
+      <p>
+        The project emphasizes clean architecture, explicit dependencies, and
+        performance-aware design decisions.
+      </p>
+    </section>
+
+    <section id="status" class="card">
+      <h2>Project Status</h2>
+      <ul>
+        <li>Current stage: Developer Preview (v1.x)</li>
+        <li>Primary focus: API stabilization, testing, documentation</li>
+        <li>Data ingest: CSV and HTTP sources</li>
+        <li>Interfaces: REST-based integration</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        For technical questions, collaboration, or feedback:
+      </p>
+      <p>
+        <a href="mailto:contact@quantumgrades.dev">
+          contact@quantumgrades.dev
+        </a>
+      </p>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> QuantumGrades</span>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
