@@ -15,29 +15,40 @@
 </head>
 <body>
 
-  <header class="container header">
-    <div class="brand">
-      <!-- Replace with your logo -->
-      <!-- <img src="assets/logo.svg" alt="QuantumGrades logo" width="40" height="40" /> -->
-      <div class="logo">QG</div>
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container header-inner">
+      <img
+        src="assets/logo-mark.svg"
+        alt="QuantumGrades symbol"
+        class="logo-mark"
+      />
 
-      <div>
-        <div class="title">QuantumGrades</div>
-        <div class="subtitle">Developer Preview</div>
-      </div>
+      <nav class="nav nav-offset">
+        <a href="#about">About</a>
+        <a href="#status">Status</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#status">Status</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
+  <div class="divider"></div>
+
+  <!-- ===== Meta ===== -->
+  <div class="container meta">
+    Developer Preview · v1.x
+  </div>
+
+  <!-- ===== Main ===== -->
   <main class="container">
 
+    <!-- ===== Hero ===== -->
     <section class="hero">
-      <h1>High-performance analytics engine for quantitative systems.</h1>
+      <h1 class="product-name">quantumgrades</h1>
+
+      <h2 class="claim">
+        High-performance analytics engine for quantitative systems.
+      </h2>
 
       <p class="lead">
         QuantumGradesApp is an engineering-driven C++ project focused on modularity,
@@ -62,8 +73,9 @@
       </div>
     </section>
 
+    <!-- ===== About ===== -->
     <section id="about" class="card">
-      <h2>About the Project</h2>
+      <h3>About the Project</h3>
       <p>
         The goal of QuantumGradesApp is to provide a lightweight, deterministic, and
         testable analytics core that can be embedded into services, tools, and
@@ -75,8 +87,9 @@
       </p>
     </section>
 
+    <!-- ===== Status ===== -->
     <section id="status" class="card">
-      <h2>Project Status</h2>
+      <h3>Project Status</h3>
       <ul>
         <li>Current stage: Developer Preview (v1.x)</li>
         <li>Primary focus: API stabilization, testing, documentation</li>
@@ -85,8 +98,9 @@
       </ul>
     </section>
 
+    <!-- ===== Contact ===== -->
     <section id="contact" class="card">
-      <h2>Contact</h2>
+      <h3>Contact</h3>
       <p>
         For technical questions, collaboration, or feedback:
       </p>
@@ -97,8 +111,9 @@
       </p>
     </section>
 
+    <!-- ===== Footer ===== -->
     <footer class="footer">
-      <span>© <span id="year"></span> QuantumGrades</span>
+      © <span id="year"></span> QuantumGrades
     </footer>
 
   </main>
