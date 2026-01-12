@@ -47,18 +47,32 @@ main {
 .header-inner {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 1.5rem 0 1rem;
 }
 
+.nav {
+  margin-right: 1.5rem; /* symetria względem .container padding */
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .nav {
+    margin-right: 1.5rem;
+  }
+}
+
 .logo-mark {
-  width: 56px;
-  opacity: 0.6;
-  filter: drop-shadow(0 0 1px #000);
+  width: clamp(6rem, 9vw, 8rem);
+  height: auto;
+  opacity: 0.7;
+  filter:
+    drop-shadow(0 1px 2px rgba(0,0,0,0.9))
+    drop-shadow(0 0 14px rgba(201,162,58,0.35));
 }
 
 .nav-offset {
-  margin-top: 1.2rem;
+  margin-top: 2.4rem;
 }
 
 .nav a {
