@@ -1,6 +1,6 @@
-# QuantumGrades — Website
+# QuantGrades — Website
 
-This repository contains the official website for the QuantumGradesApp project.
+This repository contains the official website for the QuantGradesApp project.
 
 Current scope:
 - static HTML/CSS
